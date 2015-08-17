@@ -15,4 +15,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "celluloid", "~> 0.17.0"
+  spec.add_runtime_dependency "celluloid-manager", ">= 0"
 end
