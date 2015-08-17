@@ -7,3 +7,8 @@ gemspec
 #de for purposes of development alongside... otherwise this can be omitted at time of release:
 gem 'celluloid', github: 'celluloid/celluloid', branch: 'master', submodules: true
 gem 'celluloid-manager', github: 'celluloid/celluloid-manager', branch: 'master'
+
+group :test do
+  gem 'rake'
+  gem 'rspec', '~> 3.2'
+end
