@@ -1,3 +1,5 @@
-require 'celluloid'
+$CELLULOID_LOCKDETECTOR ||= true
+$CELLULOID_LOCKDETECTOR_CHECKING ||= 1
+$CELLULOID_LOCKDETECTOR_INTERVAL ||= 4
 
 require 'celluloid/actor/lock_detection.rb'
